@@ -12,7 +12,6 @@ def fibonci(number):
     while a<number:
         print(a, end=' ')
         a,b=b,a+b
-    print()
 fibonci(number)
 
 
@@ -53,7 +52,23 @@ arbitary_funtion(1,2,3,4,5)
 #this funtion will print numbers according to the number of argumentw instead of declaring funtion definition inside the funtion 
 
 
+#creating arbitary funtion
+def people_name(list_of,*name):
+    user_list=[]
+    #loop to  store the tuple variable to the list
+    for user in name:
+        user_list.append(user)
+    print(f"list of {list_of} {user_list}")
+
+#example of other arbitary funtion in django
+def people_name_1(list_of,**name):
+    print(f" the data for {list_of} is {name}")
+
+people_name_1('males',name='aswin',age=14,status='single')
+people_name('females','vismaya','ramani','anurag','reshma')
 # In[ ]:
+
+
 
 
 
