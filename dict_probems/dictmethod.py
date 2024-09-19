@@ -1,15 +1,10 @@
-dict={1:'aswin',2:'sandeep',3:'arjun',4:'sharath'}
-print(dict.items())
+max_valu=5
 
-#get is used to rerrive value from the key
-print(dict.get(5,"no value"))
-
-print(dict.values())
-
-print(dict.items())
-
-dict.popitem()
-print(dict)
-
-dict.pop(3)
-print(dict)
+#outer loop
+for x in range(max_valu):
+    #inner loop
+    y=x
+    while(y>=1):
+        print(y,end=' ')
+        y-=1
+    print()
