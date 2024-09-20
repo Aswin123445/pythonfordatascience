@@ -35,5 +35,11 @@ class Solution:
 cl=Solution()
 print(cl.lengthOfLongestSubstring('123abc123'))
 
-#
+nums=[1,2,3,4,4,5,3,4,6,]
+val=4
+nums= list(filter(lambda x:  x != val,list(nums)))
+print(nums)
+
+
+
 
