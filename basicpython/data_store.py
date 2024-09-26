@@ -22,3 +22,5 @@ with open("new_list.json",'r') as file :
      list=json.load(file)
 print(list)
 
+
+

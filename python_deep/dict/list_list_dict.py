@@ -13,3 +13,9 @@ tem=[[1, 'Jean Castro', 'V'], [2, 'Lula Powell', 'V'], [3, 'Brian Howell', 'VI']
 
 t={x[0]:x[1:] for x in tem}
 print(t)
+
+s='aswin'
+print(s[::])
+
+#generator expression
+

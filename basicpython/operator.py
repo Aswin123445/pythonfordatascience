@@ -60,7 +60,7 @@ print(merged_dict)
 #using odd value delelet
 ddddd={10:200,21:200,43:401}
 
-#dddd={x:y for x,y in ddddd.items() if y%2==0 }
+dddd={x:y for x,y in ddddd.items() if y%2==0 }
 
 for x,y in tuple(ddddd.items()):
    if x%2==0:
