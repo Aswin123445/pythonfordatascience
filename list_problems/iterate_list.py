@@ -8,4 +8,4 @@ for i,j in zip(list1,list2):
     print(j)
 
 #list comprehensiation
-print([ (x,y) for x ,y in zip(list1,list2)])
+print([ (x,y) for x,y in zip(list1,list2)])

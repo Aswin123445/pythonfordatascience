@@ -5,4 +5,4 @@ di=[{'name': 'Theodore', 'age': 18}, {'name': 'Mathew', 'age': 22}, {'name': 'Ro
 for x in range(len(di)):
     print(di[x]['age'])
 d=[di[x]['age'] for x in range(len(di))]
-print(d)
+print({})
